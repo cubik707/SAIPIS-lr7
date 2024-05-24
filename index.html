@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>LR-7</title>
+</head>
+<body>
+<div class="flex-wrapper">
+    <header>
+        <img src="../assets/logo.png" alt="logo">
+    </header>
+    <section>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Главная</a></li>
+            </ul>
+        </nav>
+        <article>
+            <select id="query">
+                <option value="weather">Погода в городе</option>
+                <option value="info">Информация о городе</option>
+                <option value="attractions">Достопримечательности</option>
+            </select>
+            <button id="loadContent1">Загрузить City1</button>
+            <button id="loadContent2">Загрузить City2</button>
+            <button id="loadContent3">Загрузить City3</button>
+            <button id="loadContent4">Загрузить City4</button>
+            <button id="loadJSON">Загрузить JSON</button>
+            <div id="content"></div>
+            <div id="jsonContent"></div>
+        </article>
+        <aside>
+            <p class="note">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, fugiat. Beatae reprehenderit, aspernatur aliquam odio praesentium omnis velit consequatur deleniti! Libero voluptate cupiditate numquam facere aliquam unde similique voluptatum! Excepturi!
+            </p>
+        </aside>
+    </section>
+    <footer>
+        <small>674 Gonzales Drive.   Washington, PA 15301</small>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../index.js"></script>
+</body>
+</html>
